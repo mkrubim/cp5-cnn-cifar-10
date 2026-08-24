@@ -4,11 +4,13 @@
 - Paulo Tudini (RM 564418)
 - Mike Rubim (RM 561888)
 
-### 1.2 Para treinar o modelo
-- 
-
-### 1.3 Para testar o modelo após treinado
-- 
+### 1.2 Para testar o modelo
+- Executar o script deploy/api.py
+- Via Terminal Power Shell, navegar até a pasta do modelo a ser testado
+- Executar o comando
+- Via navegador, acessar o link (ip local)
+- Fazer upload de uma imagem 32x32 dentre as classes analisadas (é possível utilizar o exemplo contido na diretório data/)
+- Analisar o resultado da previsão
 
 ## 2. Relatório
 
