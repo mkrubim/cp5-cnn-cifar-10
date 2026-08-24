@@ -5,11 +5,12 @@
 - Mike Rubim (RM 561888)
 
 ### 1.2 Para testar o modelo
-- Executar o script deploy/api.py
-- Via Terminal Power Shell, navegar até a pasta do modelo a ser testado
-- Executar o comando
-- Via navegador, acessar o link (ip local)
-- Fazer upload de uma imagem 32x32 dentre as classes analisadas (é possível utilizar o exemplo contido na diretório data/)
+- Executar o script `deploy/api.py`
+- Via Terminal, navegar até a pasta do modelo a ser testado
+- Via Terminal, executar o comando `pip install fastapi "uvicorn[standard]" python-multipart pillow`
+- Ainda no Terminal, executar o comando `python -m uvicorn deploy.api:app --reload --port 8000`
+- Via navegador, acessar o link (ip local) `http://127.0.0.1:8000`
+- Fazer upload de uma imagem 32x32 dentre as classes analisadas (é possível utilizar o exemplo contido na diretório `data/`)
 - Analisar o resultado da previsão
 
 ## 2. Relatório
