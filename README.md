@@ -18,7 +18,7 @@
 **Projeto:** CP5 — Classificação de imagens com CNN
 **Arquivo gerado ao executar:** `src/gerar_relatorio.py` a partir dos outputs reais de:
 - Experimento A (FashionMNIST)
-- Experimento B (CIFAR10): 
+- Experimento B (CIFAR10)
 
 Nenhum número abaixo foi digitado à mão — todos vêm de `historico.json` e
 `metricas_teste.json` gerados por `train.py`/`evaluate.py` em cada projeto.
